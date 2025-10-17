@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #9c9c9c;
+}
+
+h1{
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 120px;
+    font-size: 28px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu{
+    margin: 0 auto;
+}
+
+.menu > li{
+    margin: 0 0 0 25px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.menu a:hover{
+   text-decoration:overline;
+}
+
+#lista-links{
+    margin: 0 auto;
+}
+
+#lista-links > li{
+    padding: 0 7px;
+}
+
+#imagem-principal{
+    border-radius: 30px;
+    width: 500px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+#primeira-sessao{
+    display: flex;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+#primeira-sessao > #titulo{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#titulo > h2{
+    font-size: 64px;
+}
+.primeira-sessao--link{
+ display: inline-block;
+ text-align: center;
+ font-size: 35px;
+ margin: 40px;
+ background-color: black;
+ border-radius: 5px;
+ color: white;
+ width: 55%;
+ height: 60px;
+ padding-top: 15px;
+ border-style: double;
+
+}
+.primeira-sessao--link:hover{
+    background-color: rgb(246, 246, 246);
+    color: black;
+}
+
+.segunda-sessao{
+    background-color: rgb(10, 10, 10);
+    padding-bottom: 30px;
+}
+
+.container-segunda-sessao{
+    width: 1100px;    
+    margin: 0 auto;
+}
+
+.segunda-sessao--titulo{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(123, 103, 103);
+}
+
+.container-experiencia{   
+    background-color: rgb(246, 246, 246);
+    margin-bottom: 30px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.contaner-imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 53, 53);
+    padding: 15px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.imagem{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.div--texto{
+    padding: 30px;
+}
+
+.div--texto h3{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.div--texto .cidade{
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.div--texto p{
+    font-size: 20px;
+    text-align: justify;
+    width: 95%;
+}
+
+.terceira-sessao h2{
+    text-align: center;
+    font-size: 100px;
+    font-size: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: rgb(5, 5, 5);
+    text-shadow: 2px 2px 2px rgb(98, 92, 92);
+}
+
+.container-formacoes-academicas{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto 100px auto;
+}
+
+.formacao-academica{
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    margin: 0 10px; 
+    border-radius: 10px;
+}
+
+.formacao-academica img{
+    margin-top: 40px;
+}
+
+.formacao-academica p{
+    color: white;
+    margin: 40px 0;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.cabecalho{
+    height: 300px;
+    text-align: center;
+    color: white;
+    background-color: rgb(18, 17, 17);    
+}
+
+.cabecalho h2{
+    padding: 120px 0 10px 0;
+}
+

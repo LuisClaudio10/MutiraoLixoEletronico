@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólios</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <section id="container-cabecalho">
+            <img src="../../Imagens/Paginas/logo-cabecalho.png" style="height: 70px;" alt="Logo principal">
+            <ul>
+                <a href="../Home/index.html"><li>Home</li></a>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <section id="section-principal">
+            <div id="container-titulo">
+                <a id="botao-voltar" href="../Home/index.html">
+                    <img width="20px" src="../../Imagens/Paginas/voltar.png" alt="">
+                    <p>Voltar</p>
+                </a>
+
+                <h1>EDIÇÕES ANTERIORES</h1>
+            </div>
+            <div id="container-edicoes">
+                <img id="seta-esquerda" onclick="AvancarEdicao()" height="62.22px" width="35px" src="../../Imagens/Paginas/voltar.png" alt="">
+                <div id="edicao_2023">
+                    <h2 class="titulo-edicoes">2023</h2>
+                    <table class="tabela_fotos">
+                        <tr>
+                            <td><img height="230px" src="../../Imagens/Paginas/EdicoesAnteriores/edicao_2023_1.jpg" alt="Primeira imagem da edição de 2022"></td>
+                            <td><img height="230px" src="../../Imagens/Paginas/EdicoesAnteriores/edicao_2023_2.jpg" alt="Segunda imagem da edição de 2022"></td>
+                        </tr>
+                        <tr>
+                            <td><img height="230px" src="../../Imagens/Paginas/EdicoesAnteriores/edicao_2023_3.jpg" alt="Terceira imagem da edição de 2022"></td>
+                            <td><img height="230px" src="../../Imagens/Paginas/EdicoesAnteriores/edicao_2023_4.jpg" alt="Quarta imagem da edição de 2022"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="edicao_2022">
+                    <h2 class="titulo-edicoes">2022</h2>
+                    <table class="tabela_fotos">
+                        <tr>
+                            <td><img width="230px" src="../../Imagens/Paginas/EdicoesAnteriores/edicao_2022_1.jpg" alt="Primeira imagem da edição de 2022"></td>
+                            <td><img width="230px" src="../../Imagens/Paginas/EdicoesAnteriores/edicao_2022_2.jpg" alt="Segunda imagem da edição de 2022"></td>
+                        </tr>
+                        <tr>
+                            <td><img width="230px" src="../../Imagens/Paginas/EdicoesAnteriores/edicao_2022_3.jpg" alt="Terceira imagem da edição de 2022"></td>
+                            <td><img width="230px"src="../../Imagens/Paginas/EdicoesAnteriores/edicao_2022_4.jpg" alt="Quarta imagem da edição de 2022"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="edicao_2021">
+                    <h2 class="titulo-edicoes">2021</h2>
+                    <table class="tabela_fotos">
+                        <tr>
+                            <td><img width="230px" src="../../Imagens/Paginas/EdicoesAnteriores/edicao_2021_1.jpg" alt="Primeira imagem da edição de 2022"></td>
+                            <td><img width="230px" src="../../Imagens/Paginas/EdicoesAnteriores/edicao_2021_2.jpg" alt="Segunda imagem da edição de 2022"></td>
+                        </tr>
+                        <tr>
+                            <td><img width="230px" src="../../Imagens/Paginas/EdicoesAnteriores/edicao_2021_3.jpg" alt="Terceira imagem da edição de 2022"></td>
+                            <td><img width="230px" src="../../Imagens/Paginas/EdicoesAnteriores/edicao_2021_4.jpg" alt="Quarta imagem da edição de 2022"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="edicao_2020">
+                    <h2 class="titulo-edicoes">2020</h2>
+                    <table class="tabela_fotos">
+                        <tr>
+                            <td><img style="padding-top: 8px;" width="460px" src="../../Imagens/Paginas/EdicoesAnteriores/edicao_2020.jpg" alt="Primeira imagem da edição de 2022"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="edicao_2019">
+                    <h2 class="titulo-edicoes">2019</h2>
+                    <table class="tabela_fotos">
+                        <tr>
+                            <td><img width="230px" src="../../Imagens/Paginas/EdicoesAnteriores/edicao_2019_1.jpg" alt="Primeira imagem da edição de 2022"></td>
+                            <td><img width="230px" src="../../Imagens/Paginas/EdicoesAnteriores/edicao_2019_2.jpg" alt="Segunda imagem da edição de 2022"></td>
+                        </tr>
+                        <tr>
+                            <td><img width="230px" src="../../Imagens/Paginas/EdicoesAnteriores/edicao_2019_3.jpg" alt="Terceira imagem da edição de 2022"></td>
+                            <td><img width="230px"src="../../Imagens/Paginas/EdicoesAnteriores/edicao_2019_4.jpg" alt="Quarta imagem da edição de 2022"></td>
+                        </tr>
+                    </table>
+                </div>
+                <img id="seta-direita" onclick="VoltarEdicao()" height="62.22px" width="35px" src="../../Imagens/Paginas/voltar.png" alt="">
+            </div>
+        </section>
+    </main>
+    <footer id="footer_final">
+        <section id="footer_section_superior">
+            <div id="canto_esquerdo">
+                <img id="logo_footer" src="../../Imagens/Paginas/logo_multirao.png" alt="Logo do multirão eletrônico">
+                <p>
+                    O Mutirão do Lixo Eletrônico é um evento realizado anualmente em Presidente Prudente/SP, que tem como principal objetivo possibilitar oportunidade do descarte ambientalmente correto do e-lixo produzido pela população do município.
+                </p>
+            </div>
+            <div id="meio">
+                <h3>Demais Páginas</h3>
+                <hr>
+                <ul>
+                    <a href="../Portifolio/index.html">
+                        <li>Portifólios</li>
+                    </a>
+                    <a href="../Inscricao/index.html">
+                        <li>Inscreva-se</li>
+                    </a>
+                    <a href="../EdicoesAnteriores/index.html">
+                        <li>Edições anteriores</li>
+                    </a>
+                </ul>
+            </div>
+            <div id="canto_direito">
+                <h3>Contato</h3>
+                <hr>
+                <p>
+                    Secretaria Municipal de Tecnologia da Informação
+                    Av. Coronel José Soares Marcondes, nº 1200
+                    CEP: 19010-081 Presidente Prudente - SP
+                </p>
+                <p>
+                    contato@mutiraodolixoeletronico.com.br
+                    Telefone: (18) 3902-4427
+                </p>
+            </div>
+        </section>
+        <section id="footer_section_inferior">
+            <p class="centraliza_texto">© Copyright Mutirão do Lixo Eletrônico 2024.</p>
+        </section>
+    </footer>
+</body>
+</html>

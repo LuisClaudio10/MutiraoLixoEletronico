@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/*------ Cabeçalho ------*/
+
+.cabecalho{    
+    background-color: rgb(15, 44, 19);
+    height: 85px;
+    justify-content: space-between;    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.cabecalho a{
+    color: #ffffff;
+}
+
+#container-cabecalho{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#container-cabecalho img{ 
+    margin-top: 8px;   
+}
+
+#container-cabecalho ul{
+    display: flex;
+    align-items: center;    
+}
+
+#container-cabecalho li{
+    padding: 33px 15px;
+    height: 100%;
+    transition: 0.1s;
+}
+
+#container-cabecalho a{
+    padding: 0px;
+    align-items: center;
+}
+
+#container-cabecalho li:hover{
+    color: #ffffff;
+    background-color: #2f8f3c;
+    border-bottom: 2px solid #ffffff;
+    padding: 33px 15px 31px 15px;
+}
+
+/*------ Cabeçalho ------*/
+
+/*------ Corpo ------*/
+main{
+    margin-top: 85px;
+}
+
+#section-principal{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#section-principal h1{
+    text-align: center;
+    margin: 40px 0;
+}
+
+#section-principal #container-opcoes{
+    max-width: 800px;
+    margin: 40px auto 100px auto;
+    display: flex;
+}
+
+#coluna1, #coluna2{
+    width: 400px;
+}
+
+#botao-voltar{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+#botao-voltar:hover{
+    background-color: rgb(205, 235, 214);
+}
+
+#botao-voltar p{
+    font-weight: 700;
+    color: rgb(15, 44, 19);
+    padding-left: 8px;
+}
+
+#container-titulo{
+    display: flex;    
+    margin: 0 auto;
+}
+
+#container-titulo h1{
+    padding-left: 227.5px;
+    font-weight: 700;
+}
+
+#section-principal{
+    margin-bottom: 80px;
+}
+
+#section-principal .card-portifolio{
+    width: 400px;
+    background-color: #acecaab7;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#section-principal .card-portifolio:hover{
+    background-color: #56aa61;
+}
+
+#section-principal .card-portifolio h2{
+    color: #000000;
+}
+
+
+#section-principal .card-portifolio p{
+    color: #4d4d4d;
+}
+
+#felipe-heroi{
+    display: flex;
+    width: 170px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: -5px;
+}
+
+#felipe-heroi p{
+    padding-right: 5px;
+}
+
+.primeira-letra{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0 198 55);
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/*------ Corpo ------*/
+
+/*------ Rodapé ------*/
+
+footer{
+    background-color: #141515;
+    position: relative;
+    z-index: 2;
+}
+
+#logo_footer{
+    width: 180px;
+}
+
+#canto_esquerdo{
+    width: 110%;
+    padding-right: 50px;
+}
+
+#canto_direto{
+    padding-left: 250px;
+}
+
+#footer_section_superior{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    padding-top: 60px;
+    max-width: 1100px;
+}
+
+#canto_esquerdo p{
+    margin: 25px 0 120px 0;
+}
+
+#meio{
+    width: 500px;
+    margin-right: 50px;
+}
+
+#meio > h3{
+    color: #ffffff;
+}
+
+#meio hr{
+    margin: 30px 0;
+}
+
+#meio a{
+    color: #4f5050;
+}
+
+#meio li{
+    padding: 10px 7px;
+}
+
+#meio li:hover{
+    background-color: #1b1b1b;
+}
+
+#canto_direito{
+    width: 300px;
+}
+
+#canto_direito > h3{
+    color: #ffffff;
+}
+
+#sessao-realizacao{
+    width: 100%;
+    background-color: #39b54a;
+    position: relative;
+    z-index: 2;
+}
+
+#conatiner-realizacao{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#lista-logos{
+    display: flex;
+    text-align: center;
+    padding-left: 36px;
+}
+
+#conatiner-realizacao h2{
+    color: white;
+    padding: 80px 0;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#lista-logos img{
+    width: 200px;
+    margin-bottom: 70px;
+}
+
+#conatiner-realizacao > h2{
+    padding: 60px;
+}
+
+#footer_section_inferior {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.centraliza_texto{
+    text-align: center;
+}
+
+#footer_final p{
+    color: #4f5050;
+}
+
+#canto_direito hr{
+    margin: 30px 0;
+}
+
+/*------ Rodapé ------*/

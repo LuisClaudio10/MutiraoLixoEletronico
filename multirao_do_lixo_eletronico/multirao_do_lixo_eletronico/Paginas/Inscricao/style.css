@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/*------ Cabeçalho ------*/
+
+.cabecalho{    
+    background-color: rgb(15, 44, 19);
+    height: 85px;
+    justify-content: space-between;    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.cabecalho a{
+    color: #ffffff;
+}
+
+#container-cabecalho{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#container-cabecalho img{ 
+    margin-top: 8px;   
+}
+
+#container-cabecalho ul{
+    display: flex;
+    align-items: center;    
+}
+
+#container-cabecalho li{
+    padding: 33px 15px;
+    height: 100%;
+    transition: 0.1s;
+}
+
+#container-cabecalho a{
+    padding: 0px;
+    align-items: center;
+}
+
+#container-cabecalho li:hover{
+    color: #ffffff;
+    background-color: #2f8f3c;
+    border-bottom: 2px solid #ffffff;
+    padding: 33px 15px 31px 15px;
+}
+
+/*------ Cabeçalho ------*/
+
+
+/*------ Corpo ------*/
+
+main{
+    margin-top: 85px;
+}
+
+#botao-voltar{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+#botao-voltar:hover{
+    background-color: rgb(205, 235, 214);
+}
+
+#botao-voltar p{
+    font-weight: 700;
+    color: rgb(15, 44, 19);
+    padding-left: 8px;
+}
+
+#container-titulo{
+    display: flex;
+}
+
+#container-titulo h1{
+    padding-left: 227.5px;
+    font-weight: 700;
+}
+
+#section-principal{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#form-inscrever{
+    display: flex;
+    flex-direction: column;
+}
+
+#section-principal h1{
+    text-align: center;
+    margin: 40px 0;
+}
+
+#form-inscrever .linha{
+    display: flex;
+    width: 100%;
+}
+
+#form-inscrever .campo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#form-inscrever .campo label{
+    margin: 20px 0 0 20px;
+}
+
+#form-inscrever .campo input{
+    padding: 8px 16px;
+    margin: 0 20px;
+}
+
+#form-inscrever #cidade-estado{
+    display: flex;
+    width: 50%;
+}
+
+.campo #estados{
+    padding: 8px 16px;
+    margin-right: 20px;
+    width: 75px;
+}
+
+.campo #seleciona-imagem{
+    display: none;
+}
+
+#form-inscrever #label-arquivo{
+    display: flex;
+    flex-direction: column;
+}
+
+#label-arquivo #icone{
+    background-color: #e4e4e4;
+    padding: 8px 16px;
+    margin-right: 20px;
+    display: flex;    
+    align-items: center;
+}
+
+#label-arquivo #icone p{
+    margin-left: 10px;
+}
+
+#botao-inscrever{
+    padding: 8px 16px;
+    margin: 50px auto;
+    width: 300px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #72b944;
+    transition: 0.3s;
+    border: none;
+}
+
+#botao-inscrever:hover{
+    background-color: rgb(15, 44, 19);
+}
+
+#container-pop-up{
+    width: 450px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: rgb(15, 44, 19);
+    display: flex;
+    flex-direction: column;
+    margin-top: -450px;
+    position: relative;
+    margin-bottom: 280px;
+    z-index: 2;
+}
+
+#pop-up #container-sucesso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 10px 0;
+}
+
+#pop-up #container-sucesso p{
+    font-weight: 700;
+    color: white;
+    padding-left: 10px;
+}
+
+#botao-pop-up{
+    padding: 8px 16px;
+    margin: 20px auto;
+    width: 300px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #72b944;
+    transition: 0.3s;
+    text-align: center;
+}
+
+#botao-pop-up:hover{
+    background-color: #598f34
+}
+/*------ Corpo ------*/
+
+/*------ Rodapé ------*/
+
+footer{
+    background-color: #141515;
+    position: relative;
+    z-index: 1;
+}
+
+#logo_footer{
+    width: 180px;
+}
+
+#canto_esquerdo{
+    width: 110%;
+    padding-right: 50px;
+}
+
+#canto_direto{
+    padding-left: 250px;
+}
+
+#footer_section_superior{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    padding-top: 60px;
+    max-width: 1100px;
+}
+
+#canto_esquerdo p{
+    margin: 25px 0 120px 0;
+}
+
+#meio{
+    width: 500px;
+    margin-right: 50px;
+}
+
+#meio > h3{
+    color: #ffffff;
+}
+
+#meio hr{
+    margin: 30px 0;
+}
+
+#meio a{
+    color: #4f5050;
+}
+
+#meio li{
+    padding: 10px 7px;
+}
+
+#meio li:hover{
+    background-color: #1b1b1b;
+}
+
+#canto_direito{
+    width: 300px;
+}
+
+#canto_direito > h3{
+    color: #ffffff;
+}
+
+#sessao-realizacao{
+    width: 100%;
+    background-color: #39b54a;
+    position: relative;
+    z-index: 2;
+}
+
+#conatiner-realizacao{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#lista-logos{
+    display: flex;
+    text-align: center;
+    padding-left: 36px;
+}
+
+#conatiner-realizacao h2{
+    color: white;
+    padding: 80px 0;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#lista-logos img{
+    width: 200px;
+    margin-bottom: 70px;
+}
+
+#conatiner-realizacao > h2{
+    padding: 60px;
+}
+
+#footer_section_inferior {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.centraliza_texto{
+    text-align: center;
+}
+
+#footer_final p{
+    color: #4f5050;
+}
+
+#canto_direito hr{
+    margin: 30px 0;
+}
+
+/*------ Rodapé ------*/

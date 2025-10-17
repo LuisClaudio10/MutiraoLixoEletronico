@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/*------ Cabeçalho ------*/
+
+.cabecalho{    
+    background-color: rgb(15, 44, 19);
+    height: 85px;
+    justify-content: space-between;    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.cabecalho a{
+    color: #ffffff;
+}
+
+#container-cabecalho{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 100%;
+}
+
+#container-cabecalho img{ 
+    margin-top: 8px;   
+}
+
+#container-cabecalho ul{
+    display: flex;
+    align-items: center;    
+}
+
+#container-cabecalho li{
+    padding: 33px 15px;
+    height: 100%;
+    transition: 0.1s;
+}
+
+#container-cabecalho a{
+    padding: 0px;
+    align-items: center;
+}
+
+#container-cabecalho li:hover{
+    color: #ffffff;
+    background-color: #2f8f3c;
+    border-bottom: 2px solid #ffffff;
+    padding: 33px 15px 31px 15px;
+}
+
+/*------ Cabeçalho ------*/
+
+/*------ Referências ------*/
+#ponto-referencia-sessao-principal{
+    position: absolute;
+    top: -85px;
+}
+
+#ponto-referencia-sessao-evento{
+    position: absolute;
+    top: 660px;
+}
+
+#ponto-referencia-sessao-informativa{
+    position: absolute;
+    top: 1070px;
+}
+
+#ponto-referencia-sessao-pontos-coleta{
+    position: absolute;
+    top: 1785px;
+}
+
+#ponto-referencia-sessao-realizacao{
+    position: absolute;
+    top: 2665px;
+}
+/*------ Referências ------*/
+
+/*------ Corpo ------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#sessao-principal{
+    margin-top: 85px;
+    width: 100%;
+}
+
+#container-sessao-principal{
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #000000;
+}
+  
+#img-principal{
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    z-index: 1;
+}
+
+.elem-esquerdo {
+    background-color: #fffdfd;
+    width: 50%;
+}
+
+.elem-esquerdo h1 {
+    font-size: 50px;
+    margin: 70px 0 0 40px;
+    line-height: 70px;
+}
+
+.elem-esquerdo strong { 
+    background-color: rgb(15, 44, 19);
+    color: #2ad32a;
+    padding-right: 5px;
+}
+
+.elem-esquerdo p {
+    margin: 0 40px 20px 40px;
+}
+
+#beneficios{
+    margin: 0 40px 40px 40px;
+}
+
+.botao{
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #72b944;
+    margin-left: 40px;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.botao:hover{
+    background-color: rgb(15, 44, 19);
+}
+
+#container-complementos{
+    display: flex;
+    margin: 50px 0;
+}
+
+.complemento h2{
+    font-weight: 650;
+    font-size: 35px;
+    color: #000000;
+}
+
+#sessao-principal p{
+    font-size: 16px;
+    color: #717D7D;
+    margin-top: 10px;
+}
+
+.elem-esquerdo h2 {
+    margin-left: 40px;
+}
+
+#sessao-principal img{
+    width: 50%;
+}
+
+#sessao-evento{
+    background-color: rgb(15, 44, 19);
+    position: relative;
+    z-index: 2;
+}
+
+#container-evento{
+    max-width: 1100px;
+    margin: 0 auto; 
+}
+
+#container-evento h2{
+    color: white;
+    padding: 80px 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#container-evento p{
+    color: white;
+    padding-bottom: 80px;
+    line-height: 35px;
+}
+
+#sessao-informativa{
+    background-color: rgb(92, 197, 66);
+    position: relative;
+    z-index: 2;
+}
+
+#sessao-informativa h2{
+    color: white;
+    padding: 80px 0;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#container-informativo{
+    max-width: 1100px;
+    margin: 0 auto; 
+    display: flex;
+}
+
+.card{
+    background-color: #ffffff;
+    width: 400px;
+    margin-bottom: 80px;
+    padding: 20px 20px 40px 20px;
+}
+
+#borda-card-esquerdo{
+    border-radius: 70px 0px 0px 0px;
+}
+
+#borda-card-meio{
+    border-radius: 0px;
+    margin: 0 15px 80px 15px;
+}
+
+#borda-card-direito{
+    border-radius: 0px 70px 0px 0px;
+}
+
+.card h3{
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+#sessao-pontos-coleta{
+    height: 900px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 2;
+}
+
+#sessao-pontos-coleta h2{
+    color: rgb(0, 0, 0);
+    padding: 80px 0 130px 0;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#container-setas{
+    display: absolute;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto -500px auto;
+}
+
+#seta1{
+    width: 100px;
+    transform: rotate(265deg);
+    margin: -150px 0 0 200px;
+}
+
+#seta2{
+    width: 100px;
+    transform: rotate(0deg);
+    margin: 0px 0 0 800px;
+}
+
+#seta3{
+    width: 100px;
+    transform: rotate(80deg);
+    margin: 70px 0 0 200px;
+}
+
+#sessao-pontos-coleta h3{
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.numero{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0 198 55);
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#sessao-pontos-coleta p{
+    text-align: center; 
+}
+
+#container-pontos-coleta1{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#container-pontos-coleta2{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.pontos-coletas-materias{
+    width: 50%;
+    padding: 0 55px 50px 55px;
+}
+
+/*------ Corpo ------*/
+
+/*------ Rodapé ------*/
+
+footer{
+    background-color: #141515;
+    position: relative;
+    z-index: 2;
+}
+
+#logo_footer{
+    width: 180px;
+}
+
+#canto_esquerdo{
+    width: 110%;
+    padding-right: 50px;
+}
+
+#canto_direto{
+    padding-left: 250px;
+}
+
+#footer_section_superior{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    padding-top: 60px;
+    max-width: 1100px;
+}
+
+#canto_esquerdo p{
+    margin: 25px 0 120px 0;
+}
+
+#meio{
+    width: 500px;
+    margin-right: 50px;
+}
+
+#meio > h3{
+    color: #ffffff;
+}
+
+#meio hr{
+    margin: 30px 0;
+}
+
+#meio a{
+    color: #4f5050;
+}
+
+#meio li{
+    padding: 10px 7px;
+}
+
+#meio li:hover{
+    background-color: #1b1b1b;
+}
+
+#canto_direito{
+    width: 300px;
+}
+
+#canto_direito > h3{
+    color: #ffffff;
+}
+
+#sessao-realizacao{
+    width: 100%;
+    background-color: #39b54a;
+    position: relative;
+    z-index: 2;
+}
+
+#conatiner-realizacao{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#lista-logos{
+    display: flex;
+    text-align: center;
+    padding-left: 36px;
+}
+
+#conatiner-realizacao h2{
+    color: white;
+    padding: 80px 0;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#lista-logos img{
+    width: 200px;
+    margin-bottom: 70px;
+}
+
+#conatiner-realizacao > h2{
+    padding: 60px;
+}
+
+#footer_section_inferior {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.centraliza_texto{
+    text-align: center;
+}
+
+#footer_final p{
+    color: #4f5050;
+}
+
+#canto_direito hr{
+    margin: 30px 0;
+}
+
+/*------ Rodapé ------*/

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscreva-se</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <section id="container-cabecalho">
+            <img src="../../Imagens/Paginas/logo-cabecalho.png" style="height: 70px;" alt="Logo principal">
+            <ul>
+                <a href="../Home/index.html"><li>Home</li></a>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <section id="section-principal">
+            <div id="container-titulo">
+                <a id="botao-voltar" href="../Home/index.html">
+                    <img width="20px" src="../../Imagens/Paginas/voltar.png" alt="">
+                    <p>Voltar</p>
+                </a>
+
+                <h1>INSCREVER</h1>
+            </div>
+
+            <form id="form-inscrever" onsubmit="return MostarPopUp()">
+                <div class="linha">
+                    <div class="campo">
+                        <label id="label-arquivo" for="seleciona-imagem">
+                            <p>Foto de perfil:</p>
+                            <i id="icone">
+                                <img width="30px" src="../../Imagens/Paginas/icone-upload.png" alt="">  
+                                <p>Selecione sua foto de perfil</p>
+                            </i>
+                        </label>
+                        <input id="seleciona-imagem" name="foto" type="file">
+                    </div> 
+
+                    <div class="campo">
+                        <label for="nome">Nome:</label>
+                        <input name="nome" type="text" placeholder="Digite seu nome" pattern="^[a-zA-Z\s]{1,256}$" required>
+                    </div>
+                </div>
+
+                <div class="linha">
+                    <div class="campo">
+                        <label for="email">Email:</label>
+                        <input name="email" type="email" placeholder="Digite seu email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="telefone">Telefone:</label>
+                        <input name="telefone" type="tel" placeholder="ex: 18997182524" pattern="^\d{11}$" required>
+                    </div>
+                </div>
+
+                <div class="linha">
+                    <div class="campo">
+                        <label for="curso">Curso:</label>
+                        <input type="text" placeholder="Digite seu curso" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="data-nasc">Data de nascimento:</label>
+                        <input name="data-nasc" type="date" required>
+                    </div>
+                </div>
+                
+                <div class="linha">
+                    <div id="cidade-estado">
+                        <div class="campo" style="width: 607px;">
+                            <label for="cidade">Cidade:</label>
+                            <input name="cidade" type="text" placeholder="Digite o nome da sua cidade" required>
+                        </div>
+
+                        <div class="campo">
+                            <label for="estados">UF:</label>
+                            <select id="estados" name="estados" required>
+                                <option value="">Nenhum</option>
+                                <option value="AC">AC</option>
+                                <option value="AL">AL</option>
+                                <option value="AP">AP</option>
+                                <option value="AM">AM</option>
+                                <option value="BA">BA</option>
+                                <option value="CE">CE</option>
+                                <option value="DF">DF</option>
+                                <option value="ES">ES</option>
+                                <option value="GO">GO</option>
+                                <option value="MA">MA</option>
+                                <option value="MT">MT</option>
+                                <option value="MS">MS</option>
+                                <option value="MG">MG</option>
+                                <option value="PA">PA</option>
+                                <option value="PB">PB</option>
+                                <option value="PR">PR</option>
+                                <option value="PE">PE</option>
+                                <option value="PI">PI</option>
+                                <option value="RJ">RJ</option>
+                                <option value="RN">RN</option>
+                                <option value="RS">RS</option>
+                                <option value="RO">RO</option>
+                                <option value="RR">RR</option>
+                                <option value="SC">SC</option>
+                                <option value="SP">SP</option>
+                                <option value="SE">SE</option>
+                                <option value="TO">TO</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="campo">
+                        <label for="cep">Cep:</label>
+                        <input type="text" name="cep" placeholder="Ex: 19028035" pattern="^\d{8}$" required>
+                    </div>
+                </div>
+
+                <div class="linha">
+                    <div class="campo">
+                        <label for="rua">Rua:</label>
+                        <input type="text" name="rua" placeholder="Rua" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="numero">Número:</label>
+                        <input type="text" name="cep" placeholder="Digite o número da sua casa" required>
+                    </div>
+                </div>
+
+                <input id="botao-inscrever" type="submit" value="Inscrever">
+            </form>
+        </section>     
+        <section id="pop-up" style="display: none;">
+            <div id="container-pop-up">
+                <div id="container-sucesso">
+                    <img width="50px" src="../../Imagens/Paginas/sucesso.png" alt="Inscrito com sucesso">
+                    <p>Inscrição realizada com sucesso!</p>
+                </div>
+                <a id="botao-pop-up" href="../Home/index.html">
+                    <p>OK</p>
+                </a>
+            </div>
+        </section>   
+    </main>
+    <footer id="footer_final">
+        <section id="footer_section_superior">
+            <div id="canto_esquerdo">
+                <img id="logo_footer" src="../../Imagens/Paginas/logo_multirao.png" alt="Logo do multirão eletrônico">
+                <p>
+                    O Mutirão do Lixo Eletrônico é um evento realizado anualmente em Presidente Prudente/SP, que tem como principal objetivo possibilitar oportunidade do descarte ambientalmente correto do e-lixo produzido pela população do município.
+                </p>
+            </div>
+            <div id="meio">
+                <h3>Demais Páginas</h3>
+                <hr>
+                <ul>
+                    <a href="../Portifolio/index.html">
+                        <li>Portifólios</li>
+                    </a>
+                    <a href="../Inscricao/index.html">
+                        <li>Inscreva-se</li>
+                    </a>
+                    <a href="../EdicoesAnteriores/index.html">
+                        <li>Edições anteriores</li>
+                    </a>
+                </ul>
+            </div>
+            <div id="canto_direito">
+                <h3>Contato</h3>
+                <hr>
+                <p>
+                    Secretaria Municipal de Tecnologia da Informação
+                    Av. Coronel José Soares Marcondes, nº 1200
+                    CEP: 19010-081 Presidente Prudente - SP
+                </p>
+                <p>
+                    contato@mutiraodolixoeletronico.com.br
+                    Telefone: (18) 3902-4427
+                </p>
+            </div>
+        </section>
+        <section id="footer_section_inferior">
+            <p class="centraliza_texto">© Copyright Mutirão do Lixo Eletrônico 2024.</p>
+        </section>
+    </footer>
+</body>
+</html>

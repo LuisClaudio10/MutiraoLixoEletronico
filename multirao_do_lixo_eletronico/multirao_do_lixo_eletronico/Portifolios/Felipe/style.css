@@ -1,0 +1,47 @@
+.lista1{list-style-image: url(../../Imagens/Portifolios/Felipe/imagem1.jpg);
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-left: 4%;
+}
+.fundo{
+ background-image: url(../../Imagens/Portifolios/Felipe/postura-plana-da-estacao-de-trabalho-com-espaco-de-copia-e-laptop.jpg)        ;
+ background-size: cover;
+}
+.letra{
+    color: white;
+    font-size:x-large;
+}
+.letra2{
+    color: greenyellow;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+   width: 60%;
+   padding: 20px;
+}
+.letra3{
+    color: greenyellow;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid;
+}
+.centro{
+    text-align: center;
+}
+.centro1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: white;
+}
+.centro2{text-align: left;
+font-size:x-large;}
+.menu li {
+    background-color: greenyellow;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: rgb(250, 5, 5);
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
